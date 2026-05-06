@@ -39,3 +39,6 @@ access_token
 
 # Logs
 *.log
+
+data/processed/features/
+data/processed/splits/
