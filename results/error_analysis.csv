@@ -1,0 +1,8 @@
+algorithm,test_set,row_id,true_label,predicted,error_type,source,message,char_count,word_count,phone_count,uppercase_ratio
+naive_bayes,test,872,legitimate,phishing,FP,bongoscam,"Samahani, sikuweza kupokea simu yako.",37,5,0,0.027027027027027
+naive_bayes,test,1761,legitimate,phishing,FP,swahili_news_hf,"570, Celine Dion dola milioni 450 na mke wa Jay Z, Beyonce mwenye utajiri wa",76,15,0,0.0657894736842105
+naive_bayes,test,685,legitimate,phishing,FP,bongoscam,Naomba unitumie namba ya huyo fundi.,36,6,0,0.0277777777777777
+naive_bayes,bongoscam,872,legitimate,phishing,FP,bongoscam,"Samahani, sikuweza kupokea simu yako.",37,5,0,0.027027027027027
+naive_bayes,bongoscam,685,legitimate,phishing,FP,bongoscam,Naomba unitumie namba ya huyo fundi.,36,6,0,0.0277777777777777
+linear_svm,test,1148,phishing,legitimate,FN,bongoscam,"Mpigie Mzee NASHONI MBIRIBI kwa tiba asili miliki mali,utajiri pete,kazi,kesi,masomo mapenzi,kilimo,ufugaji,biashara Piga 0787-406-889",134,13,0,0.126865671641791
+linear_svm,bongoscam,1148,phishing,legitimate,FN,bongoscam,"Mpigie Mzee NASHONI MBIRIBI kwa tiba asili miliki mali,utajiri pete,kazi,kesi,masomo mapenzi,kilimo,ufugaji,biashara Piga 0787-406-889",134,13,0,0.126865671641791
